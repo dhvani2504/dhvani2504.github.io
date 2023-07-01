@@ -1,11 +1,9 @@
-# Welcome to Jekyll!
-#
 
 # Site settings
 title: Dhvani's Homepage
 description: |
   Hello, I'm Dhvani Patel!
-  Welcome to my portfolio :)
+  Welcome to my online portfolio :)
 owner: Dhvani Patel # or company name
 first_published: 2023 # if migrating another site, the year of your first publish
 email: dhvanip08@gmail.com
@@ -17,7 +15,7 @@ social:
   linkedin-square: https://linkedin.com/in/dhvanip25
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
-  email: dhvanip08@gmail.com
+  #email: dhvanip08@gmail.com
   #flickr:
   #instagram:
   #youtube-square:
