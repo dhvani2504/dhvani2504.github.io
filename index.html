@@ -80,7 +80,22 @@ layout: landing
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
-						<div class="typewriter">
-  							<h5>while(!(succeed = try()))</h5>
-						</div>
+						
+						<div id="typing-container"></div>
+
+						<script>
+							
+						const outputDiv = document.getElementById('typing-container');
+							
+						const txt = 'while(!(succeed = try()))'
+
+						let i = 0;
+
+						setInterval(function() {
+							outputDiv.innerHTML += txt[i];
+							i++;
+						},50);
+			
+						</script>
+						
 					</section>
