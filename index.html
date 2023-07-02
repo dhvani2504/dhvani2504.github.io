@@ -91,9 +91,12 @@ layout: landing
 
 						let i = 0;
 
-						setInterval(function() {
+						const intervalId = setInterval(function() {
 							outputDiv.innerHTML += txt[i];
 							i++;
+							if (i === txt.length) {
+								clearInterval(intervalId);
+							}
 						},50);
 			
 						</script>
